@@ -1,0 +1,180 @@
+/*HEADER*/
+
+html {
+  --background-color: white;
+  --main-color: #6a1cc3;
+  --accent-color: grey;
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main {
+  margin: 0 auto;
+}
+.header-cbe {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+
+  width: 391px;
+  height: 102px;
+  border: 2px solid #8849cf;
+  background-color: #8849cf;
+  /* left: -1px;
+  top: -1px; */
+}
+
+.first-backround {
+  width: 391px;
+  height: 95px;
+}
+
+.second-backround {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  position: absolute;
+  background-color: blueviolet;
+  color: white;
+  width: 391px;
+  height: 95px;
+}
+.menu-icon {
+  position: relative;
+  top: 2.3rem;
+  left: 2rem;
+}
+
+.cbe-font {
+  position: absolute;
+  width: 262px;
+  height: 19px;
+  left: 6rem;
+  top: 2rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120.8%;
+  text-transform: uppercase;
+}
+
+/*HEADER---------------------------------------------------------------------------*/
+
+/*MAIN-Content----------------------------------------------------------------------*/
+
+/*main > article {
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+*/
+.main {
+  width: 391px;
+  height: 1000px;
+  margin-top: -11rem;
+  padding-top: 1rem;
+}
+
+.filter-head-content {
+  /*_padding-top: 1rem; */
+}
+
+.filter-head {
+  margin-top: 11rem;
+  font-family: "Montserrat";
+  color: #6a1cc3;
+  width: 263px;
+  height: 13px;
+}
+
+.filter-sub-head {
+  margin-top: 1rem;
+  width: 328px;
+  height: 36px;
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+
+input {
+  position: absolute;
+  width: 391px;
+  height: 36px;
+  border: 2px solid #6a1cc3;
+}
+
+.search-icon {
+  position: absolute;
+  top: 0.7rem;
+  color: #6a1cc3;
+  right: 0rem;
+}
+
+.searchbar-box {
+  position: relative;
+}
+
+#suche {
+  background-color: transparent;
+}
+
+.dropbox-class {
+  display: flex;
+  margin-top: 5rem;
+  width: 182px;
+  height: 38px;
+}
+.month-work-box {
+  display: flex;
+}
+.month-class {
+  border: 2px solid var(--main-color);
+  width: 182px;
+  height: 2.5rem;
+}
+.workmodul {
+  border: 2px solid var(--main-color);
+  width: 131px;
+  height: 2.5rem;
+  margin-left: 5.4rem;
+}
+
+.student-names + .student-names {
+  margin-top: 16px;
+}
+.student-names {
+  border: 2px solid var(--main-color);
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  color: var(--main-color);
+  box-shadow: 3px 3px var(--main-color);
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+}
+
+.person-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 16px;
+}
+
+.trainee-name {
+  margin: 0;
+}
+
+.git-link {
+  color: var(--main-color);
+}
+
+.heading-list {
+  color: var(--accent-color);
+}
+
+.article-pos {
+  margin-top: 3rem;
+}
